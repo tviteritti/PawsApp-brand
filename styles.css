@@ -1,78 +1,196 @@
-body{
+body {
     padding: 0;
     margin: 0;
     font-family: inherit;
 }
+
 .content-img img {
-    height: 18rem;
-    width: auto; 
-    margin-left: 6rem;   
+    width: 100%;
+    max-width: 250px;
+    height: auto;
 }
+
 .content-img2 img {
-    height: 12rem;
-    width: auto;
+    width: 100%;
+    max-width: 200px;
+    height: auto;
 }
+
 .content-img-center img {
-    height: 18rem;
-    width: auto;
+    width: 100%;
+    max-width: 250px;
+    height: auto;
 }
-.content-vh{
+
+.content-vh {
     height: 100vh;
 }
-.main{
+
+.main {
     background-color: #ff8170;
 }
-.white{
+
+.white {
     background-color: white;
 }
-.black{
+
+.black {
     background-color: black;
 }
-.w100{
+
+.w100 {
     width: 100%;
 }
-.text-center{
+
+.text-center {
     text-align: center;
 }
-.padding-x{
-    padding-top:3rem;
+
+.padding-x {
+    padding-top: 3rem;
     padding-bottom: 3rem;
 }
-.flex-star-center{
+
+.flex-star-center {
     display: flex;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
 }
+
 .flex-end {
     display: flex;
     justify-content: flex-end;
 }
-.flex-column{
+
+.flex-column {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-.margin-x{
-    margin-top:9rem;
+
+.margin-x {
+    margin-top: 9rem;
     margin-bottom: 9rem;
 }
-.logo{
+
+.logo {
     margin-left: 2rem;
-    font-size:10rem;
-    font-family:inherit;
+    font-size: 8rem;
+    font-family: inherit;
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
 }
+
+.logo-2 {
+    margin-left: 2rem;
+    font-size: 8rem;
+    font-family: inherit;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+}
+
 .margin-logo {
     margin-left: 2rem;
 }
+
 .logo-center {
     font-size: 6rem;
     margin: 0;
 }
-.text-white{
+
+.text-white {
     color: white;
 }
-.text-black{
+
+.text-black {
     color: black;
+}
+
+@media (max-width: 1200px) {
+    .content-img2 img {
+        height: 11rem;
+        width: auto;
+    }
+
+    .content-img-center img {
+        height: 12rem;
+        width: auto;
+    }
+
+    .logo {
+        font-size: 8rem;
+    }
+
+    .logo-2 {
+        font-size: 7rem;
+    }
+}
+
+@media (max-width: 900px) {
+    .content-img2 img {
+        height: 9rem;
+        width: auto;
+    }
+
+    .content-img-center img {
+        height: 10rem;
+        width: auto;
+    }
+
+    .logo {
+        font-size: 6rem;
+    }
+
+    .logo-2 {
+        font-size: 5rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .content-img img {
+        height: 10rem;
+        width: auto;
+    }
+
+    .content-img2 img {
+        height: 7rem;
+        width: auto;
+    }
+
+    .content-img-center img {
+        height: 8rem;
+        width: auto;
+    }
+
+    .logo {
+        font-size: 4rem;
+    }
+
+    .logo-2 {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 465px) {
+    .content-img img {
+        height: 7.5rem;
+        width: auto;
+    }
+
+    .content-img2 img {
+        height: 5rem;
+        width: auto;
+    }
+
+    .content-img-center img {
+        height: 6rem;
+        width: auto;
+    }
+
+    .logo {
+        font-size: 3rem;
+    }
+
+    .logo-2 {
+        font-size: 2rem;
+    }
 }
